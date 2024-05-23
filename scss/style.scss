@@ -57,6 +57,7 @@ body {
         max-height: 200px;
         overflow-y: auto;
         li {
+            height: var(--label-haight);
             padding: 5px;
             @include overflow-multi-ellipsis(3);
             &:hover {
